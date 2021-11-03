@@ -3,7 +3,7 @@ const data = {
         {
             title: "Pixel Art",
             description: "An interactive web based tool that can help anyone make beautiful pixel art and save it to share with others.",
-            interactive: './projects/pixel/index.html',
+            interactive: 'https://emmalopezcode.github.io/pixel/',
             image: 'pixel',
             github: 'https://github.com/emmalopezcode/pixel',
             demo: 'https://youtu.be/PmdtAaaOMiE'
