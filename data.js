@@ -13,7 +13,8 @@ const data = {
             description: "This is a mobile app that developed for my school in order to promote sustainability on campus.",
             interactive: false,
             github: "https://github.com/emmalopezcode/sharebox",
-            image: 'sharebox'
+            image: 'sharebox',
+            demo: 'https://youtu.be/dbJuxjq9mIg'
         },
         {
             title: "Messaging App",
