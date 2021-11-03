@@ -1,0 +1,88 @@
+svg {
+    display: inline;
+}
+
+.experience-tiles {
+
+    margin: 0 20%;
+}
+
+.points {
+    list-style-type: circle;
+    padding:  0 15px;
+}
+
+.point {
+    padding: 3px 0;
+}
+
+.experience-tile {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-tile:nth-child(even) {
+    padding-right:20px;
+    justify-content: left;
+
+}
+
+.exp-content {
+    padding: 20px 0 20px 20px;
+}
+
+.exp-img {
+    width: 38%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+
+.exp-img:nth-child(odd) {
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+
+
+.company {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: rgb(40, 40, 43);
+}
+
+.job-title {
+    display: inline;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.job-period {
+    display: inline;
+    opacity: .6;
+}
+
+.job-description {
+    padding: 20px 0;
+    padding-top: 10px;
+}
+
+.buzzwords {
+    display: flex;
+}
+
+.buzzword {
+    font-size: .9rem;
+    background-color:var(--blue);
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+}

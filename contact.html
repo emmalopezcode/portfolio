@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/intro.css" rel="stylesheet">
+  <link href="css/skills.css" rel="stylesheet">
+  <link href="css/experience.css" rel="stylesheet">
+  <link href="css/dropdown.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    function submit(event) {
+      event.preventDefault();
+      let form = document.querySelector('form').cloneNode(true);
+      document.querySelector('form').reset();
+      form.requestSubmit();
+
+
+    }
+  </script>
+
+  <script src="/data.js"></script>
+  <script src="/navbar.js"></script>
+  <script type="module" src="/contact.js"></script>
+</body>
+
+</html>

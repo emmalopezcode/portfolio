@@ -1,0 +1,93 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    row-gap: 3%;
+    column-gap: 3%;
+    margin: 0 10%;
+    margin-bottom: 20%;
+}
+
+.project {
+    display: flex;
+}
+
+.project-title {
+    font-size: 2rem;
+    font-weight:600;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    background-color: white;
+    padding: 30px;
+}
+
+.project-img {
+    width: 35%;
+    object-fit: cover;
+}
+
+.cta {
+    display: flex;
+    margin-top: 15px;
+}
+
+.cta-btn {
+    all:unset;
+    padding: 5px 5px;
+    margin: 0 10px;
+    color: white;
+    border-radius: 3px;
+    border: solid 2px black;
+    font-weight: bold;
+    font-size: .89rem;
+}
+.cta-btn:hover {
+    all: unset;
+    padding: 5px 5px;
+    margin: 0 10px;
+    color: white;
+    border-radius: 3px;
+    border: solid 2px black;
+    font-weight: bold;
+    font-size: .89rem;
+}
+
+
+.github {
+    background-color: var(--light-grey);
+    border-color: var(--light-grey);
+}
+
+.github:hover {
+    border-color: var(--light-grey);
+    color: var(--light-grey);
+}
+
+.demo {
+    background-color: var(--dark-grey);
+    border-color: var(--dark-grey);
+}
+
+.demo:hover {
+    border-color: var(--dark-grey);
+    color: var(--dark-grey);
+}
+
+.interactive {
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+.interactive:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: white;
+}

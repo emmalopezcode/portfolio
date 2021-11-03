@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Lobster';
+  src:url(../fonts/Lobster-Regular.ttf);
+}
+
+html {
+  scroll-padding-top: 100px;
+}
+
+body {
+  font-family: var(--font);
+  background-color: rgb(80, 77, 85);
+}
+
+:root {
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --blue:rgb(72, 156, 224);
+  --light-grey:rgb(112, 116, 119);
+  --dark-grey: rgb(40, 40, 43);
+}
+
+.nav-bar {
+  z-index: 2;
+  position: -webkit-sticky;
+  top:0;
+  position:sticky;
+  background-color:var(--dark-grey);
+  border-bottom: solid var(--blue);
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-nav {
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  font-family: var(--font);
+  transition: 0.3s;
+  display:inline-block;
+}
+
+
+a:hover {
+  background-color: var(--blue);
+}
+
+
+.logo-text {
+  margin-left: 20px;
+  font-family:Lobster;
+}
+
+body {
+  margin: 0;
+}
+
+.title-text {
+  color: whitesmoke;
+  font-size: 8vw;
+  margin: 0;
+  font-family: var(--font);
+}
+
+.dark-background {
+  background-color: rgb(80, 77, 85);
+} 
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+.title {
+  /* background-color: red; */
+  background-size: cover;
+  background-image: linear-gradient(to right, rgb(27, 27, 27), 70%, transparent), url("./images/emma_bg.jpg");
+}
+
+.box {
+  /* width: 19%; */
+  height: 30vh;
+  border: none;
+  transition: 1s;
+}
+
+.box:hover {
+  background: hsl( 0, 0%, 10);
+}
+
+.btn {
+  padding: 10px;
+  border: solid var(--blue);
+  background-color: transparent;
+  color: whitesmoke;
+  width: fit-content;
+  margin: 10px auto;
+  font-size: xx-large;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  pointer-events: auto;
+  transition: .3s;
+  margin-top: 40px;
+}
+.btn:hover {
+  background-color: var(--blue);
+}
+#box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  width: 100%;
+  background-color: hsl(0, 0%, 30%);
+}
+
+
+.greeting {
+  pointer-events: none;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+  position: absolute;
+  top: 30vh;
+  font-size: 3.5rem;
+  font-family: 'Consolas';
+}
+
+#name {
+  color: rgb(125, 197, 255);
+  font-weight: bold;
+}
+
+.reach-out{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me {
+  text-decoration:none; 
+  border: solid 2px var(--blue);
+  margin-bottom: 10%;
+  margin-top: 50px
+}
